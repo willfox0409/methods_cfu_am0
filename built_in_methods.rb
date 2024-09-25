@@ -51,9 +51,18 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
-first_name = "Will"
+first_name = "will"
 puts first_name.capitalize
-# insert comment here
+# the .capitalize method is called on the first_name variable, which stores the string object "will".
+# the puts command prints the return value to the console.
+# the method returns a string containing the characters in 'will'; the first character is upcased; the remaining characters are downcased: 'Will'
+
+greeting = "Ho!"
+puts greeting * 3
+# the string * integer method is called on the greeting variable which stores the string object "Ho!"
+# the puts command prints the return to the console.
+# the method returns a new string with '3' copies of the string "Ho!" all within the same quotation marks. 
+
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
