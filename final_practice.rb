@@ -113,7 +113,7 @@ result2 = square(6)
 puts result1  
 puts result2
 
-# The return value of the method is the square of the integer passed as the argument.
+# The return value of the method is the square (that number multiplied by itself) of the integer passed as the argument.
 # One argument was passed to the method each time.
 # The argument passed was an integer. 
 # For square(2) the return value was 4
@@ -134,3 +134,13 @@ check_stock(0, "Cheese");
 
 check_stock(1, "Salsa");
 # => "Salsa - running LOW"
+
+def check_stock(quantity, item)
+  if quantity == 0
+    puts "#{item} - OUT of stock!"
+  elsif quantity >= 1 && quantity <= 3
+    puts "#{item} - running LOW"
+  else
+    puts "#{item} is stocked"
+  end
+end
