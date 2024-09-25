@@ -73,7 +73,7 @@ puts greeting * 3
 age = 34
 puts age.pred 
 # the .pred method is called on the integer 34, which the variable 'age' is assigned to. 
-# the put command prints return to the console.
+# the puts command prints return to the console.
 # the method returns a new integer, the predecessor of 34, ie 34 -1, so 33.
 
 
@@ -82,3 +82,17 @@ puts age.pred
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+students = ["Will", "Vinny", "RJ", "Jake"]
+puts .any?(/ill/) 
+# the .any? method is called on the variable 'students', which is assigned to the array ["Will", "Vinny", "RJ", "Jake"]
+# the puts command prints return to the console in form of true or false.
+# returns true if any element in the given array meets the given criterion, in this case, containing the characters "ill"
+# the return value is true, because the element 'Will' does in fact contain "ill"
+
+years = [1945, nil, 1990, nil, 2002, nil]
+puts years.compact
+
+# the .compact method is called on the variable 'years', which is assigned to the array [1945, nil, 1990, nil, 2002, nil]
+# the puts command prints a new array to the console.
+# the return value is a new array containing all 'non-nil' elements from 'years': [1945, 1990, 2002]
