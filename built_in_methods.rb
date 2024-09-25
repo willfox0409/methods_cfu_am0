@@ -70,6 +70,11 @@ puts greeting * 3
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+age = 34
+puts age.pred 
+# the .pred method is called on the integer 34, which the variable 'age' is assigned to. 
+# the put command prints return to the console.
+# the method returns a new integer, the predecessor of 34, ie 34 -1, so 33.
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
