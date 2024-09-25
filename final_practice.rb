@@ -103,6 +103,22 @@ puts greeting2
 
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
+def square(number)
+  number * number
+end
+
+result1 = square(2)   
+result2 = square(6)   
+
+puts result1  
+puts result2
+
+# The return value of the method is the square of the integer passed as the argument.
+# One argument was passed to the method each time.
+# The argument passed was an integer. 
+# For square(2) the return value was 4
+# For square(6) the return value was 36
+
 
 # 5: Write a method named "check_stock" that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
