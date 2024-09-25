@@ -10,7 +10,7 @@
 
 
 "Hello World".include?("Hello")
-
+# the dot include method is being called on the "Hello World" string 
 
 "Hello World".end_with?("Hello")
 
@@ -39,7 +39,9 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
-
+first_name = "Will"
+puts first_name.capitalize
+# insert comment here
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
